@@ -1,0 +1,14 @@
+bugs/fix
+
+right now the main bugs are payout problems and post-push button bug
+
+
+payout problem:
+winning a non-blackjack hand should grant 1;1 of the bet, for example if i bet 500 and i win (non-blackjack) i should be getting 1000, instead i get 1500
+ბლექჯექის გარეშე ხელის მოგება უნდა ანიჭებდეს მოთამაშეს ფსონის 1;1, მაგალითად, თუ ფსონი იქნება 500-ს და ამ ხელს მოვიგებ(არაბლექჯეკი) მე უნდა მივიღო 1000, მაგრამ ჩვენს შემთხვევაში 1000ის ნაცვლად
+ვიგებთ 1500-ს.
+
+
+
+post-push  bug: after the push/draw pressing the continue playing button will grand us a copy of our bet, i still need to figure out how to fix both of these
+Push-ის შემდგომ ბაგი: თამაშის გაგრძელება ღილაკზე დაჭერის/გათამაშების შემდეგ მოგვცემს ჩვენი ფსონის ასლს, მე მაინც უნდა გავიგო, როგორ გამოვასწორო ეს ორივე
