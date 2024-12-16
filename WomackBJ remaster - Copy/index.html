@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cardDeck.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+    <title>BlackJack by Womack</title>
+</head>
+<body>
+    <div class="hands">
+        <section class="computerHand">
+            <div class="playArea">
+                <div class="card back-red"></div>
+                <div class="card back-red"></div>
+            </div>
+        </section>
+        <section class="playerHand">
+            <div class="playArea">
+                <div class="card back-red"></div>
+                <div class="card back-red"></div>
+            </div>
+            <div class="betDisplay">$0</div>
+            <div class="scoreDisplay"><span class="plyrScore">0</span></div>
+            <div class="moneyDisplay">$0</div>
+        </section>
+    </div>
+    <div id="message"></div>
+    <div class="controls">
+        <div id="bettingContainer">
+            <button class="bet hundred">100</button>
+            <button class="bet fifty">50</button>
+            <button class="bet twentyFive">25</button>
+            <button class="bet ten">10</button>
+            <button class="bet five">5</button>
+        </div>
+        <div id="buttonContainer">
+            <button class="buttons" id="newGame">დაარიგე!</button>
+            <button class="buttons" id="hit">მეტი</button>
+            <button class="buttons" id="stand">გაჩერება</button>
+            <button class="buttons" id="bet">დადეთ ფსონი</button>
+            <button class="buttons" id="nextHand">შემდეგი ხელი</button>
+        </div>
+    </div>
+</body>
+</html>

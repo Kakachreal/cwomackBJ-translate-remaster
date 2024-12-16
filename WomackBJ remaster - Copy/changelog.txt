@@ -1,0 +1,12 @@
+changelog/readme
+
+* translated whole GUI/interface of the original code to Georgian language/თარგმნა ორიგინალური კოდის მთელი GUI/ინტერფეისი-ს ქართულ ენაზე
+* now the player cant play without putting a bet/მოთამაშეს არ შეუძლია ფსონის დადების გარეშე თამაში
+* now the player cant bet if the balance is 0/ახლა მოთამაშე ვერ დადებს ფსონს, თუ ბალანსი არის 0
+* now the player cant bet more than his balance/ახლა მოთამაშე თავის ბალანსზე მეტ ფსონს ვერ დადებს
+* the payout is different than the original code, it pays 2x instead of whatever it was i cant really remember :D/მოგებისას გადახდა განსხვავდება ორიგინალური კოდისგან, იხდის 2-ჯერ იმის ნაცვლად, რაც იყო, ნამდვილად არ მახსოვს :D
+* the losing/winning/bet error messages will dissapear after 2 seconds instead of staying on the screen until a different one dissapears/წაგების/მოგების/ფსონის შეცდომის შეტყობინებები გაქრება 2 წამის შემდეგ ეკრანზე დარჩენის ნაცვლად, სანამ სხვა არ გაქრება
+
+BlackJack by Womack - Remaster/Georgian Translate
+Ilia Karchava
+v1.0
